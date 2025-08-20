@@ -20,11 +20,12 @@ public class Main {
         
         double semestral1 = (bimestre1 + bimestre2) / 2;
         double semestral2 = (bimestre3 + bimestre4) / 2;
-        double mediaFinal = semestral;
+        double mediaFinal = (semestral1 + semestal2)/2;
         
         System.out.println("A nota do primeiro bimestre é: " + bimestre1);
         System.out.println("A nota do segundo bimestre é: " + bimestre2);
         System.out.println("A nota semestral é: " + semestral);
         System.out.println("A nota final é: " + mediaFinal);
     }
+
 }
